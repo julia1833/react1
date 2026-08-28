@@ -1,8 +1,14 @@
-export default function Profile() {
+function Profile() {
   return (
-    <div className="profile">
-      <img src="/minha-foto.jpg" alt="Foto de Julia" />
+    <section>
+      <img
+        src="/julia.jpg"
+        alt="Foto de Julia Rodrigues"
+      />
+
       <h2>Julia Rodrigues</h2>
-    </div>
+    </section>
   );
 }
+
+export default Profile;

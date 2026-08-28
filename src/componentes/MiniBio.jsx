@@ -1,8 +1,11 @@
-export default function MiniBio() {
+function MiniBio() {
   return (
-    <div>
-      <h1>Mini Bio</h1>
-      <p>Sou estudante e estou aprendendo desenvolvimento Front-End.</p>
-    </div>
+    <section>
+      <p>
+        Sou uma pessoa dedicada, gosto de aprender coisas novas e estou estudando Front-End.
+      </p>
+    </section>
   );
 }
+
+export default MiniBio;
