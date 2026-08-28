@@ -4,8 +4,11 @@ import MiniBio from "../componentes/MiniBio";
 export default function Home() {
   return (
     <main>
-      <MiniBio />
+      <h1>Mini Bio</h1>
+
       <Profile />
+
+      <MiniBio />
     </main>
   );
 }
